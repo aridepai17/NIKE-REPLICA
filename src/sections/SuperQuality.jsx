@@ -1,5 +1,5 @@
-import { shoe8 } from "../assets/images";
-import { Button } from "../components";
+import { shoe8 } from "../assets/images/shoe8";
+import  Button  from "../components";
 
 const SuperQuality = () => {
   return (
@@ -16,10 +16,10 @@ const SuperQuality = () => {
         <p className="mt-4 lg:max-w-lg info-text">
           Ensuring premium comfort and style, our meticulously crafted footwear
           is designed to elevate your experience, providing you with unmatched
-          quality, innovation, a touch of elegance.
+          quality, innovation,and a touch of elegance.
         </p>
         <p className="mt-6 lg:max-w-lg info-text">
-          Our dedication ot detail and excellence ensures your satisfaction
+          Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className="mt-11">
           <Button label="View Details" />
@@ -29,7 +29,7 @@ const SuperQuality = () => {
       <div className="flex-1 flex justify-center items-center">
         <img
           src={shoe8}
-          atl="product detail"
+          alt="shoe8"
           width={570}
           height={522}
           className="object-contain"
