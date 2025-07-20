@@ -2,6 +2,8 @@ import Button from "../components/Button";
 import { arrowRight } from "../assets/icons";
 import { shoes, statistics } from "../constants";
 import { bigShoe1 } from "../assets/images";
+import ShoeCard from '../components/ShoeCard';
+
 
 const Hero = () => {
   return (
@@ -49,7 +51,7 @@ const Hero = () => {
         />
 
         <div>
-          {shoes.map(( shoe, index ) => (
+          {shoes.map((shoe) => (
             <div key={shoe}>
               <ShoeCard />
             </div>
